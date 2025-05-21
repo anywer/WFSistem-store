@@ -18,29 +18,29 @@ function update(direction) {
     if (direction > 0) {
         active = active + 1;
         if (active >= total) {
-            active = 0; 
+            active = 0;
         }
     }
-    
-    
+
+
     else if (direction < 0) {
-      active = active - 1;
+        active = active - 1;
 
         if (active < 0) {
-            active = total - 1; 
+            active = total - 1;
         }
     }
 
     item[active].classList.add('active')
     dots[active].classList.add('active')
 
-    numnberIndicator.textContent = String(active +1 ).padStart(2, '0')
+    numnberIndicator.textContent = String(active + 1).padStart(2, '0')
 }
 
 timer = setInterval(() => {
-        update(1)
-        
-    }, 5000)
+    update(1)
+
+}, 5000)
 
 
 
