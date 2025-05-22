@@ -224,7 +224,7 @@ header nav ul li:hover::after {
     font-weight: 600;
     cursor: pointer;
     border: none;
-
+    z-index: 7;
         /*ANIMACAO*/
     transform: translateX(400px);
     opacity: 0;

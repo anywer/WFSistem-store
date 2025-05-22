@@ -4,6 +4,7 @@ const item = document.querySelectorAll('.item');
 const dots = document.querySelectorAll('.dot');
 const numnberIndicator = document.querySelector('.number');
 const list = document.querySelector('.list');
+const SaibaMais = document.querySelector('.btn');
 
 let active = 0;
 const total = item.length
@@ -13,6 +14,7 @@ let timer;
 function update(direction) {
     document.querySelector('.item.active').classList.remove('active');
     document.querySelector('.dot.active').classList.remove('active');
+    
 
 
     if (direction > 0) {
@@ -33,6 +35,7 @@ function update(direction) {
 
     item[active].classList.add('active')
     dots[active].classList.add('active')
+    
 
     numnberIndicator.textContent = String(active + 1).padStart(2, '0')
 }
@@ -41,6 +44,11 @@ timer = setInterval(() => {
     update(1)
 
 }, 5000)
+
+SaibaMais.addEventListener('click', () => {
+    alert('VOCE CLICKOU NO SAIBA MAIS')
+})
+
 
 
 
