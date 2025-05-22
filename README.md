@@ -1,3 +1,6 @@
+!(./img/Capturadetela2025-05-21214507.png)
+
+
 WFSistem Store
 Projeto desenvolvido com HTML, CSS e JavaScript, focado em desenvolver uma landing pag estilosa, com visiual agradavel e transições suaves, mas o objetivo principal deste projeto é focado em treinar versionamento, realizações de commits bem organizados dentro da plataforma 
 
