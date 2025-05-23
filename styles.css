@@ -438,8 +438,15 @@ header nav ul li:hover::after {
     display: none;
 }
 
+.arrow-btn {
+    width: 40px;
+    height: 40px;
 
+}
 
+.indicators {
+    display: none;
+}
 
 
 
